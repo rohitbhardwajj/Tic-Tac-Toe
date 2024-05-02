@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(stock-vector-seamless-pattern-of-game-tic-tac-toe-drawing-of-white-contour-on-black-background-vector-709731865.jpg);
+}
+h1{
+    text-align: center;
+    height: 73px;
+    font-size: 44px;
+    color:  cadetblue;
+    background-color: black;
+
+}
+.game{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 455px;
+    width: 514px;
+    
+    justify-content: center;
+    gap: 10px;
+    margin-top: 52px;
+    
+
+ 
+}
+.box{
+    width: 32%;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    height: 146px;
+    font-size: 92px;
+    color: red;
+    outline: none;
+    background-color: cadetblue;
+}
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* border: 4px solid beige; */
+    
+
+
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 53px;
+   
+}
+.reset{
+    height: 62px;
+    width: 96px;
+    
+    cursor: pointer;
+    border-radius: 2rem;
+    font-weight: bold;
+    background-color: black;
+    color: cadetblue;
+}
+.box:focus {
+    outline: none;
+}
